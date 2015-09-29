@@ -5,9 +5,6 @@ table {
 	font-family: Century Gothic; Arial; Times;
 	background-color: #CCCCFF;
 }
-tr {
-	color: #000;
-}
 p {
 	text-align: center;
 	font-family: Century Gothic; Arial; Times;
