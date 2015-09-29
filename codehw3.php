@@ -30,11 +30,11 @@ $bookData = array(
 	array("Programming PHP", "Kevin Tatroe", 26, "Paperback", 28.96)
 	);
 /*Foreach loops to access the data inside the array*/
-/*$bookData = array, $item = key, $data = value*/
-foreach($bookData as $item) {
- echo "<tr>";
-  foreach($item as $data) {
-    echo "<td>".$data."</td>";
+/*$bookData = array, $data = key, $item = value*/
+foreach($bookData as $data => $item) {
+ echo "<tr>"; /*table rows*/
+  foreach($item as $data) { /*This loop will step through all the items in an array, one at a time, and do something with them (put them in the table)*/
+    echo "<td>".$data."</td>";/*table data*/
   }
   echo "</tr>";
   };
